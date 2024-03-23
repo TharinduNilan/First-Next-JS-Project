@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 10vh;
+    /* background-color: red; */
+    background-color: gray;
+}
+
+.navigation_style {
+    text-decoration: none;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 80%;   
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+.Link:hover {
+    color: red;
+}
+  
+#spacialLink {
+    color: yellow;
+    margin-right: 50px;
+    text-decoration: none;
+}
+  
+#spacialLink:hover {
+    color: red;
+}
